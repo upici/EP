@@ -22,7 +22,7 @@ l'article [Perego et Veneziani 2009].
 ## Première partie : recherche de resources, documentation
 
 1.  L'équation modèle associée à ce problème est l'équation parabolique linéaire
-    \(\partial_t u - \partial_x(a(x) \partial u) = f(t,x)\), avec un coefficient
+    \(\partial_t u - \partial_x(a(x) \partial_x u) = f(t,x)\), avec un coefficient
     non constant \(a(x)\), mais régulier. Trouver et synthétiser de la
     documentation sur ce type d'équation. Quelles conditions aux limites peut on
     utiliser ? Quelles sont les conditions sur \(a(x)\) pour pouvoir la résoudre,
