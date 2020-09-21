@@ -1,20 +1,20 @@
 # Pour l'évaluation
 
--   **Prendre 10 min à chaque fin de séance pour écrire ce qu'on a fait dans le
-    fichier [./Rapports.md](./Rapports.md)**
+-   **Prendre 10 min à chaque fin de séance pour écrire ce qu'on a fait
+    dans le fichier
+    [./rapports_hebdomadaires.md](./rapports_hebdomadaires.md)**
 -   le rapport terminal doit être rédiger en Latex dans le répertoire [./rapports](rapports)
 
 # Modélisation de la propagation de potentiels d'action cardiaques
 
 ## Objectif final, très ambitieux.
 
-On souhaite réaliser un simulateur la propagation des potentiels d'action
-cardiaques dans un domaine Omega = (0,l1)x(0,l2) [éventuellement aussi en 3D,
-(0,l1)x(0,l2)x(0,l3)].
-
-On utilisera le modèle dit monodomaine avec le modèle *minimal model* de
-[Bueno-Orovio et al. 2008]. L'idée générale es d'essayer de reproduire les
-simulations de l'article [Bueno-Orovio et al. 2008].
+On souhaite réaliser un simulateur la propagation des potentiels
+d'action cardiaques dans un domaine Omega = (0,l1)x(0,l2)
+[éventuellement aussi en 3D, (0,l1)x(0,l2)x(0,l3)]. On utilisera le
+modèle dit monodomaine avec le modèle *minimal model* de [Bueno-Orovio
+et al. 2008]. L'idée générale es d'essayer de reproduire les simulations
+de l'article [Bueno-Orovio et al. 2008].
 
 On utilisera une méthode de différences finies avec un schéma en temps issu de
 l'article [Perego et Veneziani 2009].
@@ -67,4 +67,6 @@ complet, c'est à dire avec le système d'équations différentielles de l'artic
 
 ## refs
 
-À compléter dans le répertoire [./refs](./refs)
+- livre de A. Tveito et R. Winther, disponible en ligne via Babord+
+  https://babordplus.hosted.exlibrisgroup.com/permalink/f/165335h/TN_springer_s3-540-26740-9_47993
+- À compléter dans le répertoire [./refs](./refs)
